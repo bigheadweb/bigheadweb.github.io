@@ -1,0 +1,45 @@
+.icon-box {
+  min-height: 230px; }
+
+.topfoot {
+  background-color: #2F363E;
+  padding: 20px 0; }
+  .topfoot h2, .topfoot h3 {
+    color: #fff; }
+  .topfoot .ft-content {
+    display: flex;
+    justify-content: space-between; }
+  .topfoot .btn-lienhe {
+    border: 1px solid #fff;
+    width: 150px;
+    height: 50px;
+    text-shadow: none !important; }
+    .topfoot .btn-lienhe:hover {
+      background-color: #fff;
+      color: #2F363E; }
+    .topfoot .btn-lienhe:focus {
+      background-color: #fff;
+      color: #2F363E; }
+
+.social-icons-colored li a {
+  color: #fff !important; }
+
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column; } }
+.grid-active-title, .grid-filter li a, .grid-item.no-overlay .grid-description p, .grid-item.no-overlay .portfolio-description p, .portfolio-item.no-overlay .grid-description p, .portfolio-item.no-overlay .portfolio-description p {
+  font-family: "Open Sans",Helvetica,Arial,sans-serif; }
+
+.why .icon-box.medium p {
+  margin: 10px 0 20px 54px;
+  font-size: 15px;
+  color: #000; }
+
+.lang h2, .lang h5 {
+  color: #fff; }
+
+#header #header-wrap #logo a > img {
+  height: 70px;
+  margin-top: 5px; }
+
+/*# sourceMappingURL=custom.css.map */
