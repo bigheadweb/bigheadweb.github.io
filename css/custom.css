@@ -1,5 +1,13 @@
+section{
+  padding: 20px 0;
+}
+.quytrinh .icon-box{
+  min-height: 100px; 
+}
 .icon-box {
-  min-height: 230px; }
+  min-height: 200px; 
+  margin-bottom: 0;
+}
 
 .topfoot {
   background-color: #2F363E;
@@ -23,7 +31,11 @@
 
 .social-icons-colored li a {
   color: #fff !important; }
-
+@media screen and (max-width: 1024px) {
+    .icon-box{
+      min-height: 230px;
+    }
+}
 @media screen and (max-width: 768px) {
   .content {
     flex-direction: column; } }
